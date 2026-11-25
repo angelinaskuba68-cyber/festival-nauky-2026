@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Фестиваль науки 2026 — день лекцій, експериментів і відкриттів">
+    <title>Фестиваль науки 2026</title>
+</head>
+<body>
+
+    <!-- Шапка сторінки -->
+    <header>
+        <h1>Фестиваль науки 2026</h1>
+        <p>День коротких лекцій, експериментів і відкриттів</p>
+
+        <!-- Головна навігація -->
+        <nav aria-label="Основна навігація">
+            <ul>
+                <li><a href="#about">Про подію</a></li>
+                <li><a href="#program">Програма</a></li>
+                <li><a href="#register">Реєстрація</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Головний вміст сторінки -->
+    <main>
+
+        <!-- Секція про фестиваль -->
+        <section id="about">
+            <h2>Про подію</h2>
+
+            <p>
+                <strong>Фестиваль науки</strong> — це цікава подія,
+                яка пояснює складні наукові ідеї простою мовою.
+                Учасники зможуть відвідати лекції, побачити експерименти
+                та дізнатися багато нового. Участь <em>безкоштовна</em>.
+            </p>
+
+            <p>
+                Фестиваль об'єднує студентів, викладачів,
+                дослідників та всіх, хто цікавиться наукою.
+            </p>
+
+            <figure>
+                <img
+                    src="images/science.jpg"
+                    alt="Учасники спостерігають науковий експеримент"
+                    width="600"
+                >
+                <figcaption>
+                    Практична зона фестивалю науки
+                </figcaption>
+            </figure>
+        </section>
+
+        <!-- Секція програми фестивалю -->
+        <section id="program">
+            <h2>Програма фестивалю</h2>
+
+            <article>
+                <h3>Як браузер читає HTML</h3>
+
+                <p>
+                    <time datetime="2026-10-17T11:00">
+                        17 жовтня, 11:00
+                    </time>
+                </p>
+
+                <p>
+                    Розбираємо структуру вебсторінки,
+                    вивчаємо HTML-елементи та дерево документа.
+                </p>
+            </article>
+
+            <article>
+                <h3>Лабораторія світла</h3>
+
+                <p>
+                    <time datetime="2026-10-17T13:00">
+                        17 жовтня, 13:00
+                    </time>
+                </p>
+
+                <p>
+                    Спостерігаємо оптичні явища
+                    та проводимо прості наукові досліди.
+                </p>
+            </article>
+
+            <!-- Таблиця розкладу -->
+            <table>
+                <caption>Розклад подій фестивалю</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Час</th>
+                        <th scope="col">Подія</th>
+                        <th scope="col">Локація</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>11:00</td>
+                        <td>Як браузер читає HTML</td>
+                        <td>Аудиторія 201</td>
+                    </tr>
+
+                    <tr>
+                        <td>13:00</td>
+                        <td>Лабораторія світла</td>
+                        <td>Лабораторія 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Додаткова інформація -->
+        <aside>
+            <h2>Цікавий факт</h2>
+
+            <p>
+                Назва першого елемента Всесвітньої павутини
+                була WorldWideWeb. Вона також стала назвою
+                першого веббраузера.
+            </p>
+        </aside>
+
+        <!-- Секція реєстрації -->
+        <section id="register">
+            <h2>Реєстрація на фестиваль</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Дані учасника</legend>
+
+                    <p>
+                        <label for="name">Ім'я:</label>
+                        <input
+                            id="name"
+                            name="name"
+                            type="text"
+                            autocomplete="name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="email">Електронна пошта:</label>
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            autocomplete="email"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="topic">Оберіть подію:</label>
+
+                        <select id="topic" name="topic">
+                            <option value="html">
+                                Як браузер читає HTML
+                            </option>
+
+                            <option value="light">
+                                Лабораторія світла
+                            </option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="comment">Запитання або коментар:</label>
+                    </p>
+
+                    <p>
+                        <textarea
+                            id="comment"
+                            name="comment"
+                            rows="4"
+                            cols="40"
+                        ></textarea>
+                    </p>
+
+                    <button type="submit">
+                        Зареєструватися
+                    </button>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Підвал сторінки -->
+    <footer>
+        <p>&copy; 2026 Фестиваль науки. Усі права захищені.</p>
+
+        <address>
+            Контакт:
+            <a href="angelinaskuba68@gmail.com">
+                angelinaskuba68@gmail.com
+            </a>
+        </address>
+    </footer>
+
+</body>
+</html>
